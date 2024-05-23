@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image with Buttons</title>
+</head>
+<body>
+  <img src="{{ image_path }}" alt="Image">
+  <br>
+  {% for button in buttons %}
+    <button>{{ button }}</button>
+  {% endfor %}
+</body>
+</html>
